@@ -17,9 +17,12 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  width: 680px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px;
+  gap: 20px;
 }
 
 .icon {
@@ -33,6 +36,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+
+.header {
+  display: flex;
+  font-size: large;
+  font-weight: 800;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  margin: 25px 0px
 }
 
 .close-button {
